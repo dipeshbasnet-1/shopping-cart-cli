@@ -1,0 +1,26 @@
+{
+  "name": "shopping-cart-cli",
+  "version": "1.0.0",
+  "description": "A command-line shopping cart with quantities, discount codes, 13% VAT and a coloured receipt — built to practise JavaScript ES modules.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "javascript",
+    "es-modules",
+    "nodejs",
+    "cli",
+    "shopping-cart"
+  ],
+  "author": "Dipesh Basnet",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0"
+  }
+}
